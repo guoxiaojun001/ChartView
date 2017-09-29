@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <pie.test.com.chartview.view.RingView
+        android:id="@+id/ringView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        />
+
+    <pie.test.com.chartview.view.CircularStatisticsView2
+        android:id="@+id/cs_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+
+    <pie.test.com.chartview.view.MyChatView
+        android:id="@+id/my_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+</LinearLayout>
